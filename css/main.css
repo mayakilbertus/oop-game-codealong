@@ -6,6 +6,8 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow: hidden;
+  background-image: url("../images/background.jpg");
 }
 
 #player {
@@ -14,6 +16,11 @@ body {
 }
 
 .obstacle {
-  background-color: purple;
+  background-color: rgb(255, 0, 120);
   position: absolute;
+}
+
+#page-gameover {
+  text-align: center;
+  background-color: rgb(166, 161, 171);
 }
